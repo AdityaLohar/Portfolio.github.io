@@ -1,0 +1,356 @@
+/*
+    Background:  0B0C10
+    Secondary Background: 1F2833
+    Gray: C5C6C7
+    Primary: 66FCF1
+    Sceondary: 45A29
+
+*/
+
+body{
+    background-color: #0A192F !important;
+}
+
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #191F26 url('https://media.giphy.com/media/11FuEnXyGsXFba/giphy.gif') center no-repeat ;
+    z-index: 9999;
+}
+
+.hero-post p{
+    color: #337AB7;
+}
+.hero-post h1{
+    color: #CCD6F6;
+    font-weight: 900;
+    font-size: 6rem;
+}
+#sociallinks{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 7.5rem;
+    left: 5rem;
+}
+#sociallinks a{
+    font-size: 2.1rem;
+    padding: 1.5rem;
+    padding-left: 0rem;
+}
+#name{
+    font-size: 1.8rem;
+}
+#learning{
+    color: #8892B0;
+}
+#breakline{
+    height: 1px;
+    color: #CCD6F6;
+}
+#toppara{
+    color: #8892B0;
+    padding-top: 1rem;
+    font-size: 1.8rem;
+}
+/* 
+#email{
+    transform: rotate(90deg);
+    position: fixed;
+    right: -1rem;
+    bottom: 25rem;
+}
+#email:after{
+    transform: rotate(90deg);
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    position: fixed;
+    right: -2rem;
+    bottom: 25rem;
+} */
+#getintouch{
+    visibility: hidden;
+}
+
+.nav-link{
+    color: #66FCF1;
+}
+.navbar a i{
+    color: #8892B0;
+}
+
+#about{
+    margin-top: 18rem;
+    margin-bottom: 18rem;
+}
+#about h2{
+    color: #CCD6F6;
+    font-weight: bolder;
+}
+#aboutme-para{
+    color: #8892B0;
+    font-size: 1.8rem;
+}
+.iKnow{
+    display: flex;
+    flex-direction: row;
+}
+.iKnow li{
+    text-align: left;
+}
+    
+ul li{
+    display: inline;
+    color: #8892B0;
+    text-align: left;
+}
+#profilePhoto{
+    border-radius: 1rem;
+}
+
+.things-built h2, #maths-game h2{
+    color: #CCD6F6;
+    font-weight: bolder;
+}
+.maths-game h3{
+    color: #CCD6F6;
+    font-weight: bolder;
+    text-align: right;
+}
+.maths-game, .blogging-website, .todo{
+    margin-bottom: 13rem;
+}
+#mathsgamedes, #blogdes, #tododes{
+    background-color: #112240;
+    padding: 2rem;
+    color: #8892B0;
+    font-size: 1.7rem;
+    box-shadow: 0 0 10px black;
+}
+/*Maths game*/
+#mathsgamelist{
+    list-style: none;
+    text-align: right;
+}
+
+.maths-link {
+    padding: 2px;
+    font-size: 2rem;
+}
+
+/*Blog Website*/
+.blogging-website h3{
+    color: #CCD6F6;
+    font-weight: bolder;
+    text-align: left;
+}
+#bloglist{
+    list-style: none;
+    text-align: left;
+}
+
+/*To Do List*/
+.todo h3 {
+    color: #CCD6F6;
+    font-weight: bolder;
+    text-align: right;
+}
+#todolist{
+    list-style: none;
+    text-align: right;
+}
+
+.project-image-section{
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+.project-image{
+    opacity: 0.7;
+    margin: 0rem;
+}
+.project-image:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+/*Other Images*/
+.carousel-inner{
+    background-color: #112240;
+    box-shadow: 0 0 10px black;
+}
+.otherimages{
+    width: 50%;
+    margin: auto;
+}
+
+.other-things p{
+    color: #8892B0;
+}
+.other-things h3, .other-things h2{
+    color: #CCD6F6;
+    font-weight: bolder;
+}
+.card {
+    box-shadow: 0 0 10px black;
+    opacity: 0.8;
+}
+.card:hover{
+    cursor: pointer;
+    transform: translateY(-7px);
+    opacity: 1;
+}
+
+/*Contact*/
+.contact{
+    text-align: center;
+}
+.contact a:hover{
+    text-decoration: none;
+}
+.contact h2{
+    color: #CCD6F6;
+    font-weight: bolder;
+    font-size: 4.7rem;
+}
+.contact p {
+    color: #8892B0;
+    font-size: 1.8rem;
+}
+.hello-button{
+    background-color: transparent;
+    border: solid 1px #337AB7 ;
+    color: #337AB7;
+    padding: 2rem;
+}
+.hello-button:hover{
+    background-color: #3379b738;
+}
+
+.navbar-toggler{
+    background-color: #0A192F;
+    margin-right: 1rem;
+    color: #838383;
+}
+
+
+    
+
+
+/* Header */
+
+#lohar{
+    font-size: 5rem;
+    padding-left: 1px;
+}
+.navbar i{
+    font-size: 4rem;
+    text-decoration: underline;
+}
+.navbar{
+    background-color: #0A192F;
+    color: #337AB7 !important ;
+}
+
+.nav-link{
+    color: #337AB7;
+    padding-top: 0%;
+}
+.navbar li{
+    padding-left: 4rem;
+}
+.nav-link:hover{
+    text-decoration: none;
+}
+
+.navbar-nav{
+    position: absolute;
+    right: 0%;
+    transform: translatex(-10%);
+}
+.navbar-brand{
+    font-weight: 700;
+    color: #337AB7;
+}
+
+.btn-main{
+    background-color: #337AB7 !important ;
+    color: #0B0C10 !important;
+}
+
+.searchbar{
+    float: right !important;
+}
+
+
+
+/* Footer */
+
+footer{
+    background-color: #0A192F;
+    padding:8rem;
+    padding-bottom: 2rem;
+    color: #8892B0;
+}
+
+.footer-logo{
+    font-size: 2rem;
+    color: #66FCF1;
+    font-weight: 700;
+}
+
+.col-md-4{
+    color: #838383;
+}
+.col-md-4 li a{
+    text-decoration: underline;
+    color: #838383;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #0A192F; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #6f778f; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7c85a0; 
+  }
+
+  h1, h2, h3, h4, h5{
+    font-family: 'Alegreya', serif !important;
+  }
+
+  
+
+@media screen and (max-width: 600px) { 
+
+    .col-sm-3 img { 
+        height: 3rem;
+        width: 4rem !important;
+        margin-left: 0.5rem;
+     }  
+
+    .col-sm-2 img{
+        height: 3rem;
+        width: 4rem !important;
+        margin-left: 0.5rem;
+    }
+    
+}
+
+
+
