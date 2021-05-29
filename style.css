@@ -7,17 +7,18 @@
 
 */
 
+
 body{
     background-color: #0A192F !important;
 }
-
+/* 
 #loading{
     position: fixed;
     width: 100%;
     height: 100vh;
     background: #191F26 url('https://media.giphy.com/media/11FuEnXyGsXFba/giphy.gif') center no-repeat ;
     z-index: 9999;
-}
+} */
 
 .hero-post p{
     color: #337AB7;
@@ -32,12 +33,15 @@ body{
     flex-direction: column;
     position: fixed;
     bottom: 7.5rem;
-    left: 5rem;
+    left: 3rem;
 }
 #sociallinks a{
     font-size: 2.1rem;
     padding: 1.5rem;
     padding-left: 0rem;
+}
+#sociallinks2{
+    display: none;
 }
 #name{
     font-size: 1.8rem;
@@ -229,12 +233,6 @@ ul li{
     background-color: #3379b738;
 }
 
-.navbar-toggler{
-    background-color: #0A192F;
-    margin-right: 1rem;
-    color: #838383;
-}
-
 
     
 
@@ -248,6 +246,10 @@ ul li{
 .navbar i{
     font-size: 4rem;
     text-decoration: underline;
+}
+.navbar .bar{
+    font-size: 3rem;
+    border-bottom: 0rem;
 }
 .navbar{
     background-color: #0A192F;
@@ -274,6 +276,11 @@ ul li{
     font-weight: 700;
     color: #337AB7;
 }
+.navbar-toggler{
+    background-color:#0A192F;
+    margin-right: 1rem;
+}
+
 
 .btn-main{
     background-color: #337AB7 !important ;
@@ -336,21 +343,125 @@ footer{
 
   
 
-@media screen and (max-width: 600px) { 
+@media screen and (min-width: 769px) and (max-width: 888px) { 
+    #about p{
+        font-size: 1.4rem;
+    }
+    #things-built p{
+        font-size: 1.4rem;
+    }
+    #about ul li{
+        font-size: 1.2rem;
+        margin: 1% !important ;
+    }
+}
 
-    .col-sm-3 img { 
-        height: 3rem;
-        width: 4rem !important;
-        margin-left: 0.5rem;
-     }  
+@media screen and (min-width: 576px) and  (max-width:768px) {
+   #lohar{
+       font-size: 3rem!important;
+   } 
+   #logo i{
+       font-size: 3rem;
+   }
+   #contacthead{
+       font-size: 3rem;
+   }
+   .contact p{
+       font-size: 1.3rem !important;
+   }
+   .hello-button{
+       font-size: 1.3rem !important;
+   }
+   #about p{
+       font-size: 1.4rem;
+   }
+   #about ul li{
+    font-size: 1.2rem;
+    margin: 1% !important ;
+    }
+   #learning{
+       font-size: 4rem;
+   }
+   #toppara{
+       font-size: 1.4rem;
+   }
+   .hero-post h1{
+       font-size: 4rem;
+   }
+   #profilePhoto{
+       margin-top: 3rem !important;
+   }
+}
 
-    .col-sm-2 img{
-        height: 3rem;
-        width: 4rem !important;
-        margin-left: 0.5rem;
+@media screen and (max-width: 575px) { 
+    #sociallinks{
+        display: none;
+    }
+    footer{
+        position: relative;
+    }
+    #sociallinks2{
+        display: block;
+        font-size: 2rem;
+        position: absolute;
+        left: 33%;
+        bottom: 60%;
+    }
+    #contacthead{
+        font-size: 3rem;
+    }
+    .contact p{
+        font-size: 1.3rem !important;
+    }
+    .hello-button{
+        font-size: 1.3rem !important;
+    }
+    #about p{
+        font-size: 1.4rem;
+    }
+    #about ul li{
+     font-size: 1rem;
+     margin: 1% !important ;
+     }
+    #learning{
+        font-size: 4rem;
+    }
+    #toppara{
+        font-size: 1.4rem;
+    }
+    .hero-post h1{
+        font-size: 4rem;
+    }
+    .container-xl{
+        margin: auto;
+    }
+    #lohar{
+        font-size: 3rem!important;
+    } 
+    #logo i{
+        font-size: 3rem;
+    }
+    #things-built, #other-things{
+        margin: auto;
+    }
+    
+    #things-built h2, #other-things h2{
+        font-size: 2.6rem;
+    }
+    #things-built h3, #other-things h3{
+        font-size: 2rem;
+    }
+    #things-built p, #other-things p{
+        font-size: 1.4rem;
     }
     
 }
+
+
+
+
+    
+    
 
 
 
