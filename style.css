@@ -472,8 +472,8 @@ footer{
     .nav-link {
         color: white;
         text-align: left;
+        padding-bottom: 1.5rem !important;
     }
-    
 }
 
 
