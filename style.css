@@ -277,8 +277,16 @@ ul li{
     color: #337AB7;
 }
 .navbar-toggler{
-    background-color:#0A192F;
     margin-right: 1rem;
+}
+.fa-bars{
+    color: #CCD6F6;
+    font-weight: 100;
+    opacity: 0.5;
+    font-size: 0.7rem;
+    overflow: hidden;
+    height: 3.5rem;
+
 }
 
 
@@ -420,7 +428,7 @@ footer{
         font-size: 1.4rem;
     }
     #about ul li{
-     font-size: 1rem;
+     font-size: 1.2rem;
      margin: 1% !important ;
      }
     #learning{
@@ -453,6 +461,17 @@ footer{
     }
     #things-built p, #other-things p{
         font-size: 1.4rem;
+    }
+    .navbar-nav{
+        background-color: #112240;
+        position: relative;
+        right: 0%;
+        transform: translateX(1.5%);
+        left: 0%;
+    }
+    .nav-link {
+        color: white;
+        text-align: left;
     }
     
 }
