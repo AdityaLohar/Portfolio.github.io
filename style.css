@@ -243,6 +243,9 @@ ul li{
     font-size: 5rem;
     padding-left: 1px;
 }
+.logomy{
+    width: 15%;
+}
 .navbar i{
     font-size: 4rem;
     text-decoration: underline;
